@@ -38,13 +38,16 @@ Buneko Nepal, Kathmandu | July 2023 – August 2023
 - Ensured zero deficiencies in inventory logs through systematic verification
 
 ## PROJECTS
-F1 Race Day Notifier Bot | Python, Pandas, Viber API, GitHub Actions
+#### 1.F1 Race Day Notifier Bot | Python, Pandas, Viber API, GitHub Actions
 - Fetched live Formula 1 session data from the OpenF1 REST API and parsed it into a pandas DataFrame
 - Applied datetime filtering logic to detect next-day races and extract location and time details
 - Delivered automated race alerts to Viber messenger via the Viber Bot API
-- Deployed on GitHub Actions to run on a daily schedule with no manual intervention or local machine required
+- Deployed on GitHub Actions to run on a daily schedule with no manual intervention or local machine required<br><br>
+  
 
-Stock Market Data Collector & Viewer | Python, MySQL
+
+  
+#### 2.Stock Market Data Collector & Viewer | Python, MySQL
 - Developed Python scripts to fetch and process daily stock market data from APIs
 - Performed data cleaning, validation, and normalization to ensure data integrity
 - Stored structured financial data in a MySQL database and executed SQL queries for analysis
