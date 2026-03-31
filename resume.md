@@ -1,3 +1,10 @@
+<style>
+body { 
+    font-size: 12px; 
+    margin: 10mm;
+}
+</style>
+
 # Saksham Shrestha
 Data Science Student | Python Developer
 
@@ -38,16 +45,20 @@ Buneko Nepal, Kathmandu | July 2023 – August 2023
 - Ensured zero deficiencies in inventory logs through systematic verification
 
 ## PROJECTS
-#### 1.F1 Race Day Notifier Bot | Python, Pandas, Viber API, GitHub Actions
+
+#### Banking Support Agent | Python, LangChain, Gemini API, FAISS, Streamlit
+- Built a RAG pipeline that embeds banking FAQ documents into a FAISS vector store using Google Generative AI embeddings
+- Implemented semantic similarity search to retrieve the most relevant document chunks for any user query
+- Designed a modern LCEL chain with prompt templating to generate grounded, hallucination-free responses via Gemini
+- Developed a Streamlit chat interface with session state management for persistent conversation history
+
+#### F1 Race Day Notifier Bot | Python, Pandas, Viber API, GitHub Actions
 - Fetched live Formula 1 session data from the OpenF1 REST API and parsed it into a pandas DataFrame
 - Applied datetime filtering logic to detect next-day races and extract location and time details
 - Delivered automated race alerts to Viber messenger via the Viber Bot API
-- Deployed on GitHub Actions to run on a daily schedule with no manual intervention or local machine required<br><br>
-  
+- Deployed on GitHub Actions to run on a daily schedule with no manual intervention or local machine required
 
-
-  
-#### 2.Stock Market Data Collector & Viewer | Python, MySQL
+#### Stock Market Data Collector & Viewer | Python, MySQL
 - Developed Python scripts to fetch and process daily stock market data from APIs
 - Performed data cleaning, validation, and normalization to ensure data integrity
 - Stored structured financial data in a MySQL database and executed SQL queries for analysis
@@ -83,5 +94,9 @@ Volunteer | Food for Life Nepal | 2019
 - Assisted in event management and community outreach activities
 
 ## Summary
-Computer Science undergraduate and data science student with hands-on experience in Python, data analysis, web scraping, and SQL. Built data extraction and analysis projects using Pandas and Matplotlib. Seeking entry-level data analyst or Python developer roles.
+Computer Science undergraduate with hands-on experience in Python, data analysis, 
+and AI development. Built projects spanning automated API integrations and 
+scheduling systems, data pipelines, and a RAG-based conversational AI agent 
+using LangChain and Google Gemini. Seeking an AI/ML internship to contribute 
+to real-world intelligent systems and deepen expertise in generative and agentic AI.
 
