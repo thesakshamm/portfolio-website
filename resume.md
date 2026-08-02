@@ -46,6 +46,15 @@ Buneko Nepal, Kathmandu | July 2023 – August 2023
 
 ## PROJECTS
 
+#### Nutritional Parameter Analysis Engine | Python, Scikit-Learn, Pandas, Joblib, Streamlit
+
+- Trained and evaluated classification models (Logistic Regression, Decision Trees, Random Forest) on a 7-feature core nutrient vector to predict food healthiness
+- Preprocessed raw data with custom string sanitization, missing-value handling, and normalized numeric inputs using StandardScaler
+- Built an interactive Streamlit dashboard featuring dynamic serving-size scaling and traffic light visual status indicators
+- Integrated hybrid rule-based health profile guardrails (Diabetic, Low Sodium, Keto) to override ML predictions when critical nutrient limits are breached
+- Serialized trained model binaries and scaler artifacts using joblib with an automated heuristic fallback system for robust fault tolerance
+
+
 #### Banking Support Agent | Python, LangChain, Gemini API, FAISS, Streamlit
 - Built a RAG pipeline that embeds banking FAQ documents into a FAISS vector store using Google Generative AI embeddings
 - Implemented semantic similarity search to retrieve the most relevant document chunks for any user query
