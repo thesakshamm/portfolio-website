@@ -46,6 +46,14 @@ Buneko Nepal, Kathmandu | July 2023 – August 2023
 
 ## PROJECTS
 
+## Satellite-Based Crop Health Predictor | Python, XGBoost, Scikit-Learn, Pandas, Streamlit, Planetary Computer API, Joblib
+
+- Ingested multi-modal geospatial and meteorological data by querying Sentinel-2 imagery via the Planetary Computer STAC API and harvesting daily climate metrics from the Open-Meteo API
+- Processed high-resolution satellite bands to calculate cloud-masked scene NDVI and engineered 14-day rolling features including moisture deficit, water satisfaction ratio, and heatwave indicators
+- Trained and evaluated an XGBoost Regressor on chronologically split time-series data to forecast plant vigor (NDVI) 14 days in advance using MAE and $R^2$ metrics
+- Developed an interactive Streamlit dashboard featuring baseline vs. forecasted NDVI predictions, actual-vs-predicted trend visual charts, and dynamic historical date filters
+- Orchestrated an end-to-end modular pipeline automating raw data fetching, feature creation, model execution, and artifact serialization via Joblib for decoupled application serving
+
 #### Nutritional Parameter Analysis Engine | Python, Scikit-Learn, Pandas, Joblib, Streamlit
 
 - Trained and evaluated classification models (Logistic Regression, Decision Trees, Random Forest) on a 7-feature core nutrient vector to predict food healthiness
