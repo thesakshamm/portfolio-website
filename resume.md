@@ -85,8 +85,9 @@ Buneko Nepal, Kathmandu | July 2023 – August 2023
 - Stored structured financial data in a MySQL database and executed SQL queries for analysis
 - Automated CSV exports and implemented a CLI-based search for stock lookup
 
-## CERTIFICATIONS
-- SQL (Basic) Certification | HackerRank | 2026
+## CERTIFICATIONS 
+- [Data Science with Python](https://broadwayinfosys.com/certificate-verification-code/eyJpdiI6IktYNE5zVkY3bmxBbWpoNEM3Q0ZjVUE9PSIsInZhbHVlIjoiVnVHTFZ3cDRsazBpVmRHdjU2aUoyZz09IiwibWFjIjoiOWNmZWM4NTc5ZmY4YWJmMWVlOTJiODdhNzU0N2QzOGJlMjgwZTY4MjM5M2U1NzU3ZDk0MDZjMjJiNzM3NDEwMCIsInRhZyI6IiJ9)| Broadway Infosys | 2026
+- [SQL (Basic) Certification](https://www.hackerrank.com/certificates/5266dbfe47c3) | HackerRank | 2026
 - Bronze Honor Recipient | International Youth Math Challenge (IYMC) | 2023  
   Ranked in top 15% globally for problem-solving and mathematical reasoning
 
