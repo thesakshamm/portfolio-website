@@ -32,23 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Contact form submission
-    const contactForm = document.getElementById('contactForm');
-    if(contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Get form data
-            const formData = new FormData(this);
-            const name = formData.get('name') || 'Unknown';
-            
-            // Show success message
-            alert(`Thank you ${name}! Your message has been sent. I'll get back to you soon.`);
-            
-            // Reset form
-            this.reset();
-        });
-    }
+
     
     // Animate skill bars when they come into view
     const observerOptions = {

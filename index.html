@@ -373,14 +373,17 @@ print("Transforming data into insights")
                         <i class="fas fa-phone"></i>
                         <div>
                             <h4>Phone</h4>
-                            <p>+977 9808005326</p>
+                            <p>
+                                <a href="tel:+9779808005326">+977 9808005326</a>
+                            </p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
                         <div>
                             <h4>Email</h4>
-                            <p>sakshamstha5514@gmail.com</p>
+                            <p>  
+                                 <a href="mailto:sakshamstha5514@gmail.com">sakshamstha5514@gmail.com</a></p>
                         </div>
                     </div>
                     <div class="social-links">
@@ -390,18 +393,41 @@ print("Transforming data into insights")
                         <a href="https://github.com/thesakshamm" class="social-link github">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="#" class="social-link email">
-                            <i class="fas fa-envelope"></i>
+                        <a href="mailto:sakshamstha5514@gmail.com" class="social-link email">
+                        <i class="fas fa-envelope"></i>
                         </a>
                     </div>
                 </div>
                 <div class="contact-form">
-                    <form id="contactForm">
-                        <input type="text" placeholder="Your Name" required>
-                        <input type="email" placeholder="Your Email" required>
-                        <textarea placeholder="Your Message" rows="5" required></textarea>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
+                   <form id="contactForm" action="https://formspree.io/f/mljebbyz" method="POST">
+
+        <input 
+            type="text" 
+            name="name"
+            placeholder="Your Name" 
+            required
+        >
+
+        <input 
+            type="email" 
+            name="email"
+            placeholder="Your Email" 
+            required
+        >
+
+        <textarea 
+            name="message"
+            placeholder="Your Message" 
+            rows="5" 
+            required
+        ></textarea>
+
+        <button type="submit" class="btn btn-primary">
+            Send Message
+        </button>
+
+    </form>
+</div>
                 </div>
             </div>
         </div>
@@ -411,7 +437,6 @@ print("Transforming data into insights")
     <footer>
         <div class="container">
             <p>&copy; 2024 Saksham Shrestha. All rights reserved.</p>
-            <p>Data Science Portfolio | Made with Python passion</p>
         </div>
     </footer>
 
